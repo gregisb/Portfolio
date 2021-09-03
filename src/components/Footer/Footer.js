@@ -1,32 +1,35 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiOutlineWhatsApp, AiOutlineMail, AiFillLinkedin } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { SectionTitle } from '../../styles/GlobalComponents';
+
 
 const Footer = () => {
   return (
     <FooterWrapper>
+      <SectionTitle>Entre em contato</SectionTitle>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem >(31) 99212-9446</LinkItem>
+          <LinkTitle>Telefone</LinkTitle>
+          <LinkItem href="/"><AiOutlineWhatsApp /><br/> (31) 99212-9446</LinkItem>
         </LinkColumn>
 
         <LinkColumn>
           <LinkTitle>E-mail</LinkTitle>
-          <LinkItem >guilhermeb.regis@gmail.com</LinkItem>
+          <LinkItem href="/"><AiOutlineMail /> guilhermeb.regis@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         
         <CompanyContainer>
-          <Slogan>Innovating one project a time</Slogan>
+          <Slogan>Inovando, sempre.</Slogan>
         </CompanyContainer>
-        <SocialIcons href="http://github.com" target="_blank">
+        <SocialIcons href="https://github.com/gregisb" target="_blank">
           <AiFillGithub size="3rem"/>
           </SocialIcons>
-        <SocialIcons href="http://linkedin.com" target="_blank">
+        <SocialIcons href="https://www.linkedin.com/in/guilherme-regis/" target="_blank">
           <AiFillLinkedin size="3rem"/>
         </SocialIcons>
         

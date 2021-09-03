@@ -4,17 +4,22 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
+const scroll = () => {
+  const section = document.querySelector( '#projects' );
+  section.scrollIntoView( { behavior: 'smooth', block: 'start' } );
+};
+
 const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome to <br/>
-        my personal portfolio
+       Guilherme Regis        
       </SectionTitle>
       <SectionText>
-        Lorem ipsum, or lipsum as it is sometimes known, is dummy text. Lorem ipsum, or lipsum as it is sometimes known, is dummy text.
+        Desenvolvedor Full Stack <br/><br/>
+        Desenvolvimento de sistemas e aplicações web, websites e landing pages.
       </SectionText>
-      <Button onClick={() => window.location='http://google.com'}>Learn more</Button>
+      <Button onClick={() => scroll()}>Saiba mais</Button>
     </LeftSection>
   </Section>
 );

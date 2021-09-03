@@ -8,10 +8,10 @@ const Technologies = () =>  (
     <SectionDivider />
     <br/>
     <br/>
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Tecnologias<br/></SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From back end to design.
+      
+      Trabalho com as principais tecnologias para desenvolvimento web através do ecossistema JavaScript.
     </SectionText>
     <List>
       <ListItem>
@@ -19,7 +19,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-end</ListTitle>
           <ListParagraph>
-            Experience with <br/>ReactJs, JavaScript, CSS and HTML.
+            Experiência com <br/>ReactJs, NextJs, JavaScript, CSS e HTML.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -29,7 +29,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>
-            Experience with <br/>NodeJs, Express and Databases.
+            Experiência com <br/>NodeJs, Express e banco de dados como MySQL, PostgreSQL e MongoDB.
           </ListParagraph>
         </ListContainer>
       </ListItem>

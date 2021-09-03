@@ -1,14 +1,18 @@
 import React from 'react';
+import Link from 'next/link';
+
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionTitle, SectionText } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
+import { AiFillGithub } from 'react-icons/ai';
+
 
 
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
-      <SectionTitle main>Projects</SectionTitle>
+      <SectionTitle main>Projetos</SectionTitle>
       <GridContainer>
         {projects.map(({id, image, title, description, tags, source, visit}) => (
           <BlogCard key={id}>
@@ -19,7 +23,7 @@ const Projects = () => (
             </TitleContent>
             <CardInfo>{description}</CardInfo>
             <div>
-              <TitleContent>Stack</TitleContent>
+              <TitleContent><br/>Stack</TitleContent>
               <TagList>
                 {tags.map((tag, i) => (
                   <Tag key={i}>{tag}</Tag>
@@ -27,12 +31,16 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={visit} target='_blank'>Code</ExternalLinks>
-              <ExternalLinks href={source} target='_blank'>Source</ExternalLinks>
+              <ExternalLinks href={visit} target='_blank'>GitHub</ExternalLinks>
+              <ExternalLinks href={source} target='_blank'>Demo</ExternalLinks>
             </UtilityList>
           </BlogCard>
         ))}
       </GridContainer>
+      <SectionText>
+        <br /> 
+        Mais projetos disponíveis na minha página no <a href='https://github.com/gregisb' target="_blank" style={{color: "white"}}><AiFillGithub /> GitHub</a>.
+      </SectionText>
   </Section>
 );
 
