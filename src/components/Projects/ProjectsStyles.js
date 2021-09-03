@@ -6,6 +6,7 @@ export const Img = styled.img`
   object-fit: cover;
   overflow: hidden;
   border-radius: 10px;
+  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5)
 `
 
 export const GridContainer = styled.section`
@@ -36,6 +37,7 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
+  margin-top: 1rem;
 
 `;
 
@@ -69,21 +71,17 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
-  padding: 0 50px;
+  
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
   text-align: justify;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    padding:.3rem
-  
-}
+
 `;
 
 
 export const UtilityList = styled.ul`
   list-style-type: none;
-  padding: 0;
   display: flex;
   justify-content: space-around;
   margin: 2.5rem 0;
@@ -102,16 +100,32 @@ transition: 0.5s;
 }
 `;
 
+export const CardContainer = styled.div `
+padding: 3rem;
+
+`
+
 export const TagList = styled.ul`
 display: flex;
+gap: 10px;
+flex-wrap: wrap;
 justify-content: space-around;
 padding: 2rem;
+@media ${(props) => props.theme.breakpoints.sm} {
+  padding:.3rem
+
+}
 `
 export const Tag = styled.li`
 background: linear-gradient(121.57deg, #13ADC7 18.77%, #945DD6 60.15%);
 padding: 6px;
-border-radius: 8px;
+border-radius: 10px;
 // color: #d8bfbf;
 color: #fff;
 font-size: 1.5rem;
+padding: 1rem;
+@media ${(props) => props.theme.breakpoints.sm} {
+  padding:.6rem
+
+}
 `
