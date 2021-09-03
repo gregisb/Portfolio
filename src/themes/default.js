@@ -2,7 +2,7 @@ export default {
   // Temp fonts
   fonts: {
     title: "Montserrat, sans-serif",
-    main: "Poppins, sans-serif"
+    main: "Montserrat, sans-serif"
   },
   // Colors for layout
   colors: {
