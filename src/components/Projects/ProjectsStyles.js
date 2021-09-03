@@ -5,6 +5,7 @@ export const Img = styled.img`
   height:100%;
   object-fit: cover;
   overflow: hidden;
+  border-radius: 10px;
 `
 
 export const GridContainer = styled.section`
@@ -107,6 +108,10 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
-color: #d8bfbf;
+background: linear-gradient(121.57deg, #13ADC7 18.77%, #945DD6 60.15%);
+padding: 6px;
+border-radius: 8px;
+// color: #d8bfbf;
+color: #fff;
 font-size: 1.5rem;
 `
