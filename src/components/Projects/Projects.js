@@ -41,7 +41,7 @@ const Projects = () => (
     </GridContainer>
     <SectionText>
       <br />
-      Mais projetos disponíveis na minha página no <a href='https://github.com/gregisb' target="_blank" style={{ color: "white" }}><AiFillGithub /> GitHub</a>.
+      Mais projetos desenvolvidos por mim disponíveis na minha página no <a href='https://github.com/gregisb' target="_blank" style={{ color: "white" }}><AiFillGithub /> GitHub</a>.
     </SectionText>
   </Section>
 );

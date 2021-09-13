@@ -13,18 +13,18 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Telefone</LinkTitle>
-          <LinkItem href="/"><AiOutlineWhatsApp /><br/> (31) 99212-9446</LinkItem>
+          <LinkItem ><AiOutlineWhatsApp /><br/> (31) 99212-9446</LinkItem>
         </LinkColumn>
 
         <LinkColumn>
           <LinkTitle>E-mail</LinkTitle>
-          <LinkItem href="/"><AiOutlineMail /> guilhermeb.regis@gmail.com</LinkItem>
+          <LinkItem ><AiOutlineMail /> guilhermeb.regis@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         
         <CompanyContainer>
-          <Slogan>Inovando, sempre.</Slogan>
+          <Slogan>Guilherme Regis - Desenvolvedor Web.</Slogan>
         </CompanyContainer>
         <SocialIcons href="https://github.com/gregisb" target="_blank">
           <AiFillGithub size="3rem"/>

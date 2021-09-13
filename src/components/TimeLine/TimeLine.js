@@ -49,9 +49,10 @@ const Timeline = () => {
       <br/>
       <SectionTitle>Sobre</SectionTitle>
       <SectionText>
-        Formando pela Universidade Federal de Minas Gerais e apaixonado por tecnologia, trabalho com desenvolvimento web, buscando desenvolver soluções que se 
-        adequem aos problemas do cliente, trabalhando de forma conjunta com a finalidade de entregar resultados satisfatórios para o mesmo.
-        Trabalho com desenvolvimento de sistemas e aplicações web completas, websites e landing pages.
+      Apaixonado por tecnologia, trabalho com desenvolvimento web, buscando desenvolver 
+      soluções que se adequem a problemas reais, trabalhando de forma conjunta 
+      com a finalidade de entregar resultados satisfatórios além do esperado.
+Trabalho com desenvolvimento de sistemas e aplicações web completas, websites e landing pages.
 
       </SectionText>
       {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
