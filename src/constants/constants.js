@@ -27,12 +27,12 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'ToDo List - React',
-    description: "Todo List desenvolvida em React. Na aplicação é possível adcionar tarefas, marcar como completas, editá-las e deletá-las. Estudos sobre React Hooks (useState e useEffect) e funcionalidades básicas do React.",
-    image: '/images/todo.png',
-    tags: ['React', 'React Hooks', 'CSS'],
-    source: 'https://gr-todo-list-react.vercel.app/',
-    visit: 'https://github.com/gregisb/TodoList-React',
+    title: 'Pomodoro Tasks',
+    description: "Pomodoro Tasks é uma aplicação que une duas funcionalidades para produtividade: Pomodoro Timer e Todo List. O usuário pode adcionar tarefas na lista fazer uso da técnica pomodoro, com as opção de 25 minutos para trabalho, 5 minutos para short break e 15 minutos para longbreak. As tarefas ficam armazenadas no localStorage.",
+    image: '/images/pomodorotasks.png',
+    tags: ['React', 'React Hooks', 'JavaScript', 'CSS'],
+    source: 'https://pomodoro-tasks-psi.vercel.app/',
+    visit: 'https://github.com/gregisb/Pomodoro-Tasks',
     id: 3,
   },
   
