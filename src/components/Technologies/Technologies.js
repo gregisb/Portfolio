@@ -29,7 +29,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>
-            Experiência com <br/>NodeJs, Express e banco de dados como MySQL, PostgreSQL e MongoDB.
+            Conhecimento em <br/>NodeJs, Express e banco de dados como MySQL, PostgreSQL e MongoDB.
           </ListParagraph>
         </ListContainer>
       </ListItem>

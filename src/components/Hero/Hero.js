@@ -18,9 +18,9 @@ const Hero = () => (
        Guilherme Regis        
       </SectionTitle>
       <SectionText>
-        Desenvolvedor Web <br/><br/>
-        Desenvolvimento de sistemas e aplicações web, websites e landing pages. <br/>
-        <FaHtml5 size='5rem' color='white'/> <SiCss3 size='5rem' color='white'/> <SiJavascript size='5rem' color='white'/> <DiReact size='5rem' color='white'/> <DiSass size='5rem' color='white' /> <FaNode size='5rem' color='white'/>
+        Desenvolvedor Front-end <br/><br/>
+    
+        <FaHtml5 size='5rem' color='white'/> <SiCss3 size='5rem' color='white'/> <SiJavascript size='5rem' color='white'/> <DiReact size='5rem' color='white'/> <DiSass size='5rem' color='white' />
       </SectionText>
       <Button onClick={() => scroll()}>Saiba mais</Button>
     </LeftSection>
