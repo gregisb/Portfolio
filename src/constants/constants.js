@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Pomodoro Tasks',
-    description: "Pomodoro Tasks é uma aplicação que une duas funcionalidades para produtividade: Pomodoro Timer e Todo List. O usuário pode adcionar tarefas na lista fazer uso da técnica pomodoro, com as opção de 25 minutos para trabalho, 5 minutos para short break e 15 minutos para longbreak. As tarefas ficam armazenadas no localStorage.",
+    description: "[Projeto Pessoal] Pomodoro Tasks é uma aplicação que une duas funcionalidades para produtividade: Pomodoro Timer e Todo List. O usuário pode adcionar tarefas na lista fazer uso da técnica pomodoro, com as opção de 25 minutos para trabalho, 5 minutos para short break e 15 minutos para longbreak. As tarefas ficam armazenadas no localStorage.",
     image: '/images/pomodorotasks.png',
     tags: ['React', 'JavaScript', 'CSS'],
     source: 'https://pomodoro-tasks-psi.vercel.app/',
@@ -18,32 +18,32 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'JavaScript Notes',
-    description: "JavaScript Notes é uma aplicação completa baseada em aplicações como Evernote. Nesse projeto o usuário pode fazer um cadastro e ter acesso a uma plataforma em que pode adcionar, salvar e alterar notas. Também é possível que o usuário modifique suas credenciais, como e-mail, senha e nome. Aplicação completa (front-end e back-end) e responsiva. (Hospedado no Heroku)",
-      image: '/images/jsnotes.png',
-      tags: ['React', 'Node', 'Express', 'MongoDB'],
-    source: 'https://jsnotes-client2.herokuapp.com/',
-    visit: 'https://github.com/gregisb/JavaScript-notes-Client',
-    id: 1,
-  },
-  
-  {
-    title: 'Podcastr',
-    description:"Podcastr é um projeto desenvolvido para reprodução de podcasts. Todo o front-end foi desenvolvido do zero, com os componentes e todas funcionalidades do player, como play, pause, previous, next, loop e repeat! No projeto estão sendo exibidos a lista de episódios da RocketSeat, através da API.",
-    image: '/images/podcastr.png',
-    tags: ['React', 'Next', 'SASS', 'styled-components'],
-    source: 'https://gr-podcastr.vercel.app/',
-    visit: 'https://github.com/gregisb/podcastrNLW',
-    id: 4,
-  },
-  {
-    title: 'Headphones - Website',
-    description: "Layout de uma página de vendas de Headphones. Desenvolvido para estudo de JavaScript, CSS e SASS, totalmente responsivo e com pequenas animações de scroll.",
+    title: 'Hamburgueria Máximo Sabor - Website',
+    description: "[Projeto Freelance] Projeto em desenvolvimento de um site simples para hamburgueria com design minimalista, utilizando CSS Grid, HTML e JavaScript para pequenas animações. (O cliente autorizou mostrar o andamento do projeto).",
       image: '/images/headphones.png',
       tags: ['JavaScript', 'SASS', 'CSS', 'HTML'],
     source: 'https://gr-headphones-webpage.vercel.app/',
     visit: 'https://github.com/gregisb/Headphones-webpage',
     id: 3,
+  },
+  {
+    title: 'JavaScript Notes',
+    description: "[Projeto OneBit Code] JavaScript Notes é uma aplicação completa baseada em aplicações como Evernote. Nesse projeto o usuário pode fazer um cadastro e ter acesso a uma plataforma em que pode adcionar, salvar e alterar notas. Também é possível que o usuário modifique suas credenciais, como e-mail, senha e nome. Aplicação completa (front-end e back-end) e responsiva. (Hospedado no Heroku)",
+      image: '/images/jsnotes.png',
+      tags: ['React', 'Node', 'Express', 'MongoDB'],
+    source: 'https://jsnotes-client2.herokuapp.com/',
+    visit: 'https://github.com/gregisb/JavaScript-notes-Client',
+    id: 4,
+  },
+  
+  {
+    title: 'Podcastr',
+    description:"[Projeto NLW RocketSeat] Podcastr é um projeto desenvolvido para reprodução de podcasts. Todo o front-end foi desenvolvido do zero, com os componentes e todas funcionalidades do player, como play, pause, previous, next, loop e repeat! No projeto estão sendo exibidos a lista de episódios da RocketSeat, através da API. Responsividade adcionada por mim.",
+    image: '/images/podcastr.png',
+    tags: ['React', 'Next', 'SASS', 'styled-components'],
+    source: 'https://gr-podcastr.vercel.app/',
+    visit: 'https://github.com/gregisb/podcastrNLW',
+    id: 5,
   },
 ];
 
