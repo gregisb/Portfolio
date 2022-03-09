@@ -4,7 +4,7 @@ export const projects = [
     description: "[Projeto Pessoal] Discogs to Spotify é uma aplicação que permite que usuários do marketplace de discos Discogs consigam importar suas coleções para playlists no Spotify. Tem usabilidade simples e intuitiva e seu principal propósito é integrar a API do Discogs com a API do Spotify. Basta fazer login com sua conta do Spotify e começar a importar! (Você pode testar a aplicação mesmo se não for um usuário do Discogs). A ideia do projeto surgiu ao me deparar com a grande quantidade de pessoas nos foruns do Discogs solicitando alguma aplicação que pudesse fazer essa importação de forma automatizada.",
       image: '/images/spotify.png',
       tags: ['React', 'Next', 'next-auth', 'Sass'],
-    source: 'https://jsnotes-client2.herokuapp.com/',
+    source: 'https://discogs-to-spotify.vercel.app/',
     visit: 'https://github.com/gregisb/Discogs-to-Spotify',
     id: 0,
   },
@@ -20,10 +20,10 @@ export const projects = [
   {
     title: 'Hamburgueria Máximo Sabor - Website',
     description: "[Projeto Freelance] Projeto em desenvolvimento de um site simples para hamburgueria com design minimalista, utilizando CSS Grid, HTML e JavaScript para pequenas animações. (O cliente autorizou mostrar o andamento do projeto).",
-      image: '/images/headphones.png',
-      tags: ['JavaScript', 'SASS', 'CSS', 'HTML'],
-    source: 'https://gr-headphones-webpage.vercel.app/',
-    visit: 'https://github.com/gregisb/Headphones-webpage',
+      image: '/images/maximosabor.png',
+      tags: ['JavaScript', 'CSS', 'HTML'],
+    source: 'https://hamburgueria-maximo-sabor.vercel.app/',
+    visit: 'https://github.com/gregisb/',
     id: 3,
   },
   {

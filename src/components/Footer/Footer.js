@@ -24,7 +24,7 @@ const Footer = () => {
       <SocialIconsContainer>
         
         <CompanyContainer>
-          <Slogan>Guilherme Regis - Desenvolvedor Web.</Slogan>
+          <Slogan>Guilherme Regis - Desenvolvedor Web</Slogan>
         </CompanyContainer>
         <SocialIcons href="https://github.com/gregisb" target="_blank">
           <AiFillGithub size="3rem"/>

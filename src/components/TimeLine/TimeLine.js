@@ -52,7 +52,8 @@ const Timeline = () => {
       Apaixonado por tecnologia, trabalho com desenvolvimento web, buscando desenvolver 
       soluções que se adequem a problemas reais, trabalhando de forma conjunta 
       com a finalidade de entregar resultados satisfatórios além do esperado.
-Trabalho com desenvolvimento de sistemas e aplicações web completas, websites e landing pages.
+Trabalho com desenvolvimento de sistemas e aplicações web, websites e landing pages. Tenho experiência
+ profissional com front-end e conhecimento em back-end e banco de dados.
 
       </SectionText>
       {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
