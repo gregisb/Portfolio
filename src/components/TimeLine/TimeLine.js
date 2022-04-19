@@ -49,7 +49,7 @@ const Timeline = () => {
       <br/>
       <SectionTitle>Sobre</SectionTitle>
       <SectionText>
-      Apaixonado por tecnologia, trabalho com desenvolvimento web, buscando desenvolver 
+      Me chamo Guilherme Regis, sou desenvolvedor web com foco no front-end. Busco desenvolver 
       soluções que se adequem a problemas reais, trabalhando de forma conjunta 
       com a finalidade de entregar resultados satisfatórios além do esperado.
 Trabalho com desenvolvimento de sistemas e aplicações web, websites e landing pages. Tenho experiência
